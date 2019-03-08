@@ -26,6 +26,7 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/etc/thermal-engine.conf:system/etc/thermal-engine.conf \
     vendor/yu/garlic/proprietary/lib/hw/audio.primary.msm8937.so:system/lib/hw/audio.primary.msm8937.so \
     vendor/yu/garlic/proprietary/lib/hw/sensors.msm8937.so:system/lib/hw/sensors.msm8937.so \
+    vendor/yu/garlic/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/yu/garlic/proprietary/lib/libscalar.so:system/lib/libscalar.so \
     vendor/yu/garlic/proprietary/lib/libsdm-color.so:system/lib/libsdm-color.so \
     vendor/yu/garlic/proprietary/lib/libsdm-diag.so:system/lib/libsdm-diag.so \
@@ -41,13 +42,23 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/lib64/libfp_client.so:system/lib64/libfp_client.so \
     vendor/yu/garlic/proprietary/lib64/libfpnav.so:system/lib64/libfpnav.so \
     vendor/yu/garlic/proprietary/lib64/libfpservice.so:system/lib64/libfpservice.so \
+    vendor/yu/garlic/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/yu/garlic/proprietary/lib64/libsdm-color.so:system/lib64/libsdm-color.so \
     vendor/yu/garlic/proprietary/lib64/libsdm-diag.so:system/lib64/libsdm-diag.so \
     vendor/yu/garlic/proprietary/lib64/libsdm-disp-apis.so:system/lib64/libsdm-disp-apis.so \
     vendor/yu/garlic/proprietary/lib64/libsdmextension.so:system/lib64/libsdmextension.so \
     vendor/yu/garlic/proprietary/lib64/libtinyxml.so:system/lib64/libtinyxml.so \
     vendor/yu/garlic/proprietary/lib64/libtinyxml2.so:system/lib64/libtinyxml2.so \
+    vendor/yu/garlic/proprietary/vendor/lib/hw/sound_trigger.primary.msm8937.so:system/vendor/lib/hw/sound_trigger.primary.msm8937.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libaudiodevarb.so:system/vendor/lib/libaudiodevarb.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libaudioparsers.so:system/vendor/lib/libaudioparsers.so \
     vendor/yu/garlic/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
+    vendor/yu/garlic/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
+    vendor/yu/garlic/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
+    vendor/yu/garlic/proprietary/vendor/lib/sensors.ssc.so:system/vendor/lib/sensors.ssc.so \
     vendor/yu/garlic/proprietary/vendor/lib/libactuator_bu64244gwz.so:system/vendor/lib/libactuator_bu64244gwz.so \
     vendor/yu/garlic/proprietary/vendor/lib/libactuator_dw9800_imx258_p7201guangbao.so:system/vendor/lib/libactuator_dw9800_imx258_p7201guangbao.so \
     vendor/yu/garlic/proprietary/vendor/lib/libactuator_dw9800_imx258_p7201sunny.so:system/vendor/lib/libactuator_dw9800_imx258_p7201sunny.so \
@@ -212,4 +223,12 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_p7201_sunwin_ov8856_otp_eeprom.so:system/vendor/lib/libmmcamera_p7201_sunwin_ov8856_otp_eeprom.so \
     vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_s5k4h8_p7201.so:system/vendor/lib/libmmcamera_s5k4h8_p7201.so \
     vendor/yu/garlic/proprietary/vendor/lib/libmmcamera_s5k4h8_p7201_eeprom.so:system/vendor/lib/libmmcamera_s5k4h8_p7201_eeprom.so \
+    vendor/yu/garlic/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
+    vendor/yu/garlic/proprietary/vendor/lib64/libacdbmapper.so:system/vendor/lib64/libacdbmapper.so \
+    vendor/yu/garlic/proprietary/vendor/lib64/libaudioalsa.so:system/vendor/lib64/libaudioalsa.so \
+    vendor/yu/garlic/proprietary/vendor/lib64/libaudiodevarb.so:system/vendor/lib64/libaudiodevarb.so \
+    vendor/yu/garlic/proprietary/vendor/lib64/libaudioparsers.so:system/vendor/lib64/libaudioparsers.so \
     vendor/yu/garlic/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
+    vendor/yu/garlic/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
+    vendor/yu/garlic/proprietary/vendor/lib64/libsensor1.so:system/vendor/lib64/libsensor1.so \
+    vendor/yu/garlic/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so 
