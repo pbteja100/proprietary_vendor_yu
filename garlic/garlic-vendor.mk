@@ -165,12 +165,13 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
     vendor/yu/garlic/proprietary/etc/thermal-engine.conf:system/etc/thermal-engine.conf \
     vendor/yu/garlic/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
+    vendor/yu/garlic/proprietary/lib/hw/camera.msm8937.so:system/lib/hw/camera.msm8937.so \
     vendor/yu/garlic/proprietary/lib/hw/lights.msm8937.so:system/lib/hw/lights.msm8937.so \
     vendor/yu/garlic/proprietary/lib/hw/sensors.msm8937.so:system/lib/hw/sensors.msm8937.so \
     vendor/yu/garlic/proprietary/lib/libOmxAacEnc.so:system/lib/libOmxAacEnc.so \
     vendor/yu/garlic/proprietary/lib/libOmxAmrEnc.so:system/lib/libOmxAmrEnc.so \
     vendor/yu/garlic/proprietary/lib/libOmxCore.so:system/lib/libOmxCore.so \
-    vendor/yu/garlic/proprietary/lib/libOmxEvrEnc.so:system/lib/libOmxEvrEnc.so \
+    vendor/yu/garlic/proprietary/lib/libOmxEvrcEnc.so:system/lib/libOmxEvrcEnc.so \
     vendor/yu/garlic/proprietary/lib/libOmxQcelp13Enc.so:system/lib/libOmxQcelp13Enc.so \
     vendor/yu/garlic/proprietary/lib/libOmxSwVdec.so:system/lib/libOmxSwVdec.so \
     vendor/yu/garlic/proprietary/lib/libOmxSwVencMpeg4.so:system/lib/libOmxSwVencMpeg4.so \
@@ -195,7 +196,7 @@ PRODUCT_COPY_FILES += \
     vendor/yu/garlic/proprietary/lib64/libOmxAacEnc.so:system/lib64/libOmxAacEnc.so \
     vendor/yu/garlic/proprietary/lib64/libOmxAmrEnc.so:system/lib64/libOmxAmrEnc.so \
     vendor/yu/garlic/proprietary/lib64/libOmxCore.so:system/lib64/libOmxCore.so \
-    vendor/yu/garlic/proprietary/lib64/libOmxEvrEnc.so:system/lib64/libOmxEvrEnc.so \
+    vendor/yu/garlic/proprietary/lib64/libOmxEvrcEnc.so:system/lib64/libOmxEvrcEnc.so \
     vendor/yu/garlic/proprietary/lib64/libOmxQcelp13Enc.so:system/lib64/libOmxQcelp13Enc.so \
     vendor/yu/garlic/proprietary/lib64/libOmxSwVdec.so:system/lib64/libOmxSwVdec.so \
     vendor/yu/garlic/proprietary/lib64/libOmxSwVencMpeg4.so:system/lib64/libOmxSwVencMpeg4.so \
